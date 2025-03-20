@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu li {
+    height: auto;
+    width: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    transition: all .6s ease-in-out;
+}
+
+.menu li a:hover {
+    color: aqua;
+}
+
+
+.active {
+    color: blueviolet;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+}
